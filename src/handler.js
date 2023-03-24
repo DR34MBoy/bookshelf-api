@@ -116,6 +116,7 @@ const getBookByIdHandler = (request, h) => {
             },
         };
     }
+
     const response = h.response({
         status: 'fail',
         message: 'Buku tidak ditemukan',
